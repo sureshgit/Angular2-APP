@@ -1,0 +1,284 @@
+/*@media all and (min-width: 800px) and (max-width: 1020px){
+	
+
+}*/
+
+
+
+@media all and (min-width: 800px) and  (max-width: 1024px){
+    html{
+	overflow-x:hidden;
+	}
+	.rg-thumbs {
+
+	top: 460px !important;
+
+	}
+	.row .pagetitle {
+	margin: 10px 0 0 0;
+	}
+
+	.logo {
+	margin: 10px 0 0 0;
+	}
+	.postbtns {
+	padding: 7px 0 0 0;
+	margin: 0px 0 0 0;
+	}
+	
+	ul#categorie_menu a {
+font-family: 'source_sans_prolight' !important;
+font-size:13px !important;
+
+	padding: 6px 10px 12px !important;
+
+	}
+    ul#categorie_menu ul a {
+        padding: 6px 10px 0px !important;
+    }
+    #categorie_menu li a i.icon {
+    font-size: 30px;
+    line-height: 30px;
+    }
+    	
+ul#categorie_menu li.topmenu.automobiles,
+ ul#categorie_menu li.topmenu.business,
+ ul#categorie_menu li.topmenu.education,
+ ul#categorie_menu li.topmenu.entertain ,
+ ul#categorie_menu li.topmenu.computer{
+ margin-bottom:10px;
+ }
+ 
+
+.pagetop_head {
+margin: 80px auto 0 auto;
+}
+ul#categorie_menu li.topmenu.automobiles ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.business ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.education ul {
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.entertain ul{
+top: 50% ;
+
+}
+ul#categorie_menu li.topmenu.computer ul{
+top: 50% ;
+
+}
+}
+
+
+@media all and (min-width: 620px) and (max-width: 800px){
+	html{
+	overflow-x:hidden;
+	}
+	.row .pagetitle {
+	margin: 10px 0 0 0;
+	}
+	.postbtns {
+	padding: 7px 0 0 0;
+	margin: 0px 0 0 0;
+	}
+	ul#categorie_menu a {
+	font-family: 'source_sans_prolight' !important;
+	font-size:13px !important;
+
+	padding: 6px 8px 12px !important;
+
+	}
+	
+ul#categorie_menu li.topmenu.automobiles,
+ ul#categorie_menu li.topmenu.business,
+ ul#categorie_menu li.topmenu.education,
+ ul#categorie_menu li.topmenu.entertain ,
+ ul#categorie_menu li.topmenu.computer{
+ margin-bottom:10px;
+ }
+ 
+
+
+ul#categorie_menu li.topmenu.automobiles ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.business ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.education ul {
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.entertain ul{
+top: 50% ;
+
+}
+ul#categorie_menu li.topmenu.computer ul{
+top: 50% ;
+
+}
+}
+
+@media all and (min-width: 300px) and (max-width: 620px){
+	html{
+	overflow-x:hidden;
+	}
+	.pagetop_head {
+	margin: 150px auto 0 auto;
+	background: #EBF8FF;
+	padding: 20px 0 0 0;
+	}
+	ul.tags{
+	display:none;
+	}
+	.rg-thumbs {
+
+	top: 330px !important;
+
+	}
+	nav {
+	margin: 0px 0px 0 0;
+	float: left;
+	}
+	.postbtns {
+	padding: 12px 0 10px 10px;
+	margin: 0px 0 0 0;
+	}
+	label.lbl_right{
+	float:left;
+	}
+	
+ul#categorie_menu li.topmenu.automobiles,
+ ul#categorie_menu li.topmenu.business,
+ ul#categorie_menu li.topmenu.education,
+ ul#categorie_menu li.topmenu.entertain ,
+ ul#categorie_menu li.topmenu.computer{
+ margin-bottom:10px;
+ }
+ 
+
+
+ul#categorie_menu li.topmenu.automobiles ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.business ul{
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.education ul {
+top: 50% ;
+
+}
+  
+ul#categorie_menu li.topmenu.entertain ul{
+top: 50% ;
+
+}
+ul#categorie_menu li.topmenu.computer ul{
+top: 50% ;
+
+}
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .col-xs-offset-2{
+      margin-left:0px;
+    }
+    .col-lg-12.cate_icons {
+    width:100%;
+    }
+    .categories {
+      width: 90%;
+    margin-left: 10%;
+    }
+}
+@media all and (max-width: 360px) {
+    .topmenu.entertain {
+        clear: left;
+    }
+
+    .pagetop_head {
+        margin: 180px auto 0 auto;
+    }
+    	
+ul#categorie_menu li.topmenu.automobiles,
+ ul#categorie_menu li.topmenu.business,
+ ul#categorie_menu li.topmenu.education,
+ ul#categorie_menu li.topmenu.entertain ,
+ ul#categorie_menu li.topmenu.computer{
+ margin-bottom:10px;
+ }
+ 
+
+
+ul#categorie_menu li.topmenu.automobiles ul{
+top: 30% ;
+
+}
+  
+ul#categorie_menu li.topmenu.business ul{
+top: 30% ;
+}
+  
+ul#categorie_menu li.topmenu.education ul {
+top: 30% ;
+
+}
+
+ul#categorie_menu li.topmenu.computer ul{
+top: 30% ;
+
+}
+  
+ul#categorie_menu li.topmenu.entertain ul{
+top: 70% ;
+
+}
+ul#categorie_menu li.topmenu.homestore ul{
+top: 70% ;
+
+}
+ul#categorie_menu li.topmenu.jobs ul{
+top: 70% ;
+
+}
+ul#categorie_menu li.topmenu.matrimony ul{
+top: 70% ;
+
+}
+    ul#categorie_menu li.topmenu.realstate{
+        clear: left;
+    }
+    .topnav {
+
+    right: 8px;
+    }
+    #triangle-topleft {
+        top: -5px;
+    right: 11px;
+    }
+    #triangle-topright {
+
+    right: 8px;
+    }
+    .rg-thumbs {
+top: 250px !important;
+}
+}

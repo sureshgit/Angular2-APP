@@ -1,0 +1,289 @@
+/*
+Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+body {
+    /* Font */
+    font-family: Verdana, Arial !important;
+    font-size: 10pt !important;
+    /* Text color */
+    color: #333;
+    /* Remove the background color to make it transparent */
+    background-color: #fff;
+    margin: 20px;
+}
+
+.cke_editable {
+    font-size: 10pt !important;
+    /*line-height: 1.6;*/
+}
+
+
+h1, h1 span {
+    font-size: 24pt;
+}
+
+h2, h2 span {
+    font-size: 18pt;
+}
+
+h3, h3 span {
+    font-size: 16pt;
+}
+
+h4, h4 span {
+    font-size: 12pt;
+}
+
+h5, h5 span {
+    font-size: 10pt;
+}
+
+h6, h6 span {
+    font-size: 8pt;
+}
+
+.HSHandbook h1,
+.HSHandbook h1 span {
+    text-align: center;
+    font-family: Verdana !important;
+    font-size: 12pt !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.HSHandbook h2,
+.HSHandbook h3,
+.HSHandbook h4,
+.HSHandbook h5,
+.HSHandbook h6,
+.HSHandbook h2 span,
+.HSHandbook h3 span,
+.HSHandbook h4 span,
+.HSHandbook h5 span,
+.HSHandbook h6 span {
+    text-align: left;
+    font-family: Verdana !important;
+    text-decoration: underline;
+    font-size: 10pt !important;
+}
+
+.ELHandbook h1,
+.ELHandbook h1 span {
+    text-align: left;
+    font-family: Verdana !important;
+    font-size: 72pt !important;
+    padding-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ELHandbook h2,
+.ELHandbook h2 span {
+    text-align: left;
+    font-family: Verdana !important;
+    font-size: 24pt !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ELHandbook h3,
+.ELHandbook h3 span {
+    text-align: left;
+    font-family: Verdana !important;
+    font-size: 18pt !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ELHandbook h4,
+.ELHandbook h5,
+.ELHandbook h6,
+.ELHandbook h4 span,
+.ELHandbook h5 span,
+.ELHandbook h6 span {
+    text-align: left;
+    font-family: Verdana !important;
+    font-size: 16pt !important;
+    padding-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ELHandbook h4 span,
+.ELHandbook p h4 span,
+.ELHandbook > p h4 span,
+.ELHandbook h5 span,
+.ELHandbook h6 span {
+        padding-left:0px;
+    }
+
+li{
+    padding-left:20px;
+}
+
+
+p,
+body > p span,
+font,
+ul span {
+    font-family: Verdana, Arial !important;
+    font-size: 10pt !important;
+}
+
+span {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+
+blockquote {
+    font-style: italic;
+    font-family: Verdana;
+    padding: 2px 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0;
+}
+
+.cke_contents_ltr blockquote {
+    padding-left: 20px;
+    padding-right: 8px;
+    border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote {
+    padding-left: 8px;
+    padding-right: 20px;
+    border-right-width: 5px;
+}
+
+a {
+    font-family: Verdana, Arial !important;
+    color: #0782C1;
+}
+
+ol, ul, dl {
+    font-family: Verdana, Arial !important;
+    /* IE7: reset rtl list margin. (#7334) */
+    *margin-right: 0px;
+    /* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+    padding: 0 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Arial !important;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid #ccc;
+}
+
+img.right {
+    border: 1px solid #ccc;
+    float: right;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+img.left {
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+pre {
+    white-space: pre-wrap; /* CSS 2.1 */
+    word-wrap: break-word; /* IE7 */
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    -webkit-tab-size: 4;
+    tab-size: 4;
+}
+
+.marker {
+    background-color: Yellow;
+}
+
+span[lang] {
+    font-style: italic;
+}
+
+figure {
+    text-align: center;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.05);
+    padding: 10px;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+    figure > figcaption {
+        text-align: center;
+        display: block; /* For IE8 */
+    }
+
+a > img {
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    outline: 1px solid #0782C1;
+}
+
+merge-field {
+    background-color: rgb(233,176,59);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+}
+
+merge-field img {
+    background-color: #fff;
+    border-top: solid 3px rgb(233,176,59);
+    border-left: solid 3px rgb(233,176,59);
+    border-right: solid 3px rgb(233,176,59);
+    margin-top: -1px;
+    margin-bottom: -1px;
+    /*margin-left: -5px;
+    margin-right: -5px;*/
+}
+
+merge-field merge-empty {
+    background-color: #ba3549;
+    border-color: #6b1724;
+    color: #ffffff;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    /*margin-left: -5px;
+    margin-right: -5px;*/
+}
+
+.mergefield-attribute {
+    display: none !important;
+}
+
+.mergefield-attribute.show {
+    display: inline !important;
+}
+.mergefield-value {
+    display: none !important;
+}
+.mergefield-value.show {
+    display: inline !important;
+} 
+
+img.signature-preview{
+    max-height:100px;
+}
+
+img.company-logo-preview{
+    max-height: 300px;
+    max-width: 300px;
+}
