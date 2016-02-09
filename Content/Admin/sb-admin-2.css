@@ -352,3 +352,48 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+.container-loading {
+  width:30%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  right: 0;
+  bottom: 0;
+  z-index: 1010;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+  border-radius:2px;
+}
+.container-loading > .container {
+  background: #fff;
+  cursor: wait;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 0 30px 0 rgba(50, 50, 50, 0.75);
+  border-radius:2px;
+}
+
+.ssapp-message {
+  margin: 20px;
+}
+.ssapp-message h4 {
+  color: #47A447;
+}
+.ssapp-message h4 small {
+  color: #86878c;
+}
+
+.loader {
+  cursor: wait;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top:10px;
+}
+.loader h4 {
+  color: #86878c;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
