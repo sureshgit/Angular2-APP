@@ -31,7 +31,7 @@ textarea {
         position: relative;
         top: auto;
         left: 0;
-        bottom: -23px;
+       /*bottom: -23px;*/
         font-size: 14px;
         font-weight: 400;
         display: block;
