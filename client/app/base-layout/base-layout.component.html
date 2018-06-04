@@ -1,0 +1,65 @@
+<header>
+<div class="header">
+
+<div class="row">
+  <div class="header__secondary">
+        <div class="container">          
+          <div class="col-md-12">
+            <ul >
+              <li role="presentation"><a (click)="toggleHeader()">
+                <i class="fa fa-search"></i> Search</a></li>
+              <li>|</li>
+              <li role="presentation"><a (click)="showLogin()"> <i class="fa fa-lock"></i> Login / Register
+              </a></li>
+              <li>|</li>
+              <li role="presentation"><a routerLink="/listyourbusiness"> List Your Business</a></li>
+              <li>|</li>
+              <li role="presentation"><a routerLink="/howitworks"> How It Works</a></li>
+            </ul>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="row">
+<div class="header__primary">
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-bar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" routerLink="/"><img alt="Dega logo" class="header-logo"
+       src="assets/img/dega-logo-small.jpeg" width="160" > </a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-nav-bar">
+      <ul class="nav navbar-nav" >
+        <li class="active">
+          <a routerLink="search/business/sathupally" routerLinkActive="active">Business <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a routerLink="search/offering/sathupally" routerLinkActive="active">Offering</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right col-md-8">
+        <div class="input-group">
+            <input type="text" class="form-control search-input" [(ngModel)]="searchTerm" 
+            placeholder="Search for restarents, movies, books, events ...">
+            <span class="input-group-btn">
+              <button class="btn btn-default btn-search" (click)="search()" type="button">Search </button>
+            </span>
+          </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+
+
+</div>    
+</header>
+  <!-- BODY -->
+  <router-outlet> </router-outlet>
+  <!-- BODY -->
+
+<ss-footer></ss-footer>

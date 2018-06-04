@@ -1,0 +1,44 @@
+.category-menu
+{
+    padding:  0;
+    margin: 0;
+    width: 100%;
+    max-height: 124px;
+}
+
+.category-menu ul
+{
+list-style:disc;
+}
+
+.category-menu li
+{
+height: 126px;
+overflow: hidden;
+transition: all 0.3s ease;
+display: inline-block;
+margin: 0;
+width: 10%;
+cursor: pointer;
+}
+
+.item-close
+{
+    width: 100%!important;
+}
+
+.category-menu li >a
+{
+    display: block;
+
+}
+
+.category-menu-item
+{
+    text-align: center;
+    padding: 30px 8px;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height: 126px;
+}

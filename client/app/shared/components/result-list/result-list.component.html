@@ -1,0 +1,118 @@
+<div *ngIf="!_resultsList">
+Loading .....
+</div>
+
+<!-- Product filter Start -->
+<div class="product-filter">
+    <div class="grid-list-count">
+      <a class="list switchToGrid active" (click)="swithToGrid()"><i class="fa fa-list"></i></a>
+      <a class="grid switchToList" (click)="swithToList()"><i class="fa fa-th-large"></i></a>
+    </div>
+    <div class="short-name">
+      <span>Sort By</span>
+        <label>
+          <select name="order" class="orderby">
+            <option selected="selected" value="menu-order">Sort by</option>
+            <option value="popularity">Price: Low to High</option>
+            <option value="popularity">Price: High to Low</option>
+          </select>
+        </label>
+    </div>
+    <div class="Show-item">
+      <span>Show Items</span>
+        <label>
+          <select name="order" class="orderby">
+            <option selected="selected" value="menu-order">49 items</option>
+            <option value="popularity">popularity</option>
+            <option value="popularity">Average ration</option>
+            <option value="popularity">newness</option>
+            <option value="popularity">price</option>
+          </select>
+        </label>
+    </div>
+ </div>
+  <!-- Product filter End -->
+
+  <!-- Adds wrapper Start -->
+  <div class="adds-wrapper" *ngIf="_resultsList">
+    <div class="item-list" *ngFor="let result of _resultsList">
+    <a routerLink="/business/bdps-sathupally">
+      <div class="col-sm-2 no-padding photobox">
+        <div class="add-image">
+          <a href="category.html#"><img src="assets/img/item/img-1.jpg" alt=""></a>
+          <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+        </div>
+      </div>
+      <div class="col-sm-7 add-desc-box">
+        <div class="add-details">
+          <h5 class="add-title"><a href="ads-details.html">{{result.Name}} </a></h5>
+          <div class="info">
+            <span class="add-type">B</span>
+            <span class="date">
+              <i class="fa fa-clock"></i>
+              16:22:13 2017-02-29
+            </span> -
+            <span class="category">Electronics</span> -
+            <span class="item-location"><i class="fa fa-map-marker"></i>London</span>
+          </div>
+          <div class="item_desc">
+            <a href="category.html#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-right  price-box">
+        <h2 class="item-price"> $ 320 </h2>
+        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+        <span>Top Ads</span></a> 
+        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+      </div>
+      </a>
+    </div>
+    <div class="item-list">
+      <a routerLink="/offering/1/pgdc-package-in-bdps-in-sathupally">
+      <div class="col-sm-2 no-padding photobox">
+        <div class="add-image">
+          <a href="category.html#"><img src="assets/img/item/img-2.jpg" alt=""></a>
+          <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+        </div>
+      </div>
+      <div class="col-sm-7 add-desc-box">
+        <div class="add-details">
+          <h5 class="add-title"><a href="ads-details.html">Sony Xperia dual sim 100% brand new iPad</a></h5>
+          <div class="info">
+            <span class="add-type">B</span>
+            <span class="date">
+              <i class="fa fa-clock"></i>
+              16:22:13 2017-02-29
+            </span> -
+            <span class="category">Electronics</span> -
+            <span class="item-location"><i class="fa fa-map-marker"></i> London </span>
+          </div>
+          <div class="item_desc">
+            <a href="category.html#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-right  price-box">
+        <h2 class="item-price"> $ 199 </h2>
+        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+        <span>Top Ads</span></a> 
+        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+      </div>
+    </a>
+    </div>
+  </div>
+  <!-- Adds wrapper End -->
+  
+  <!-- Start Pagination -->
+  <div class="pagination-bar">
+    <ul class="pagination">
+    <li class="active"><a href="category.html#">1</a></li>
+    <li><a href="category.html#">2</a></li>
+    <li><a href="category.html#">3</a></li>
+    <li><a href="category.html#">4</a></li>
+    <li><a href="category.html#"> ...</a></li>
+    <li><a class="pagination-btn" href="category.html#">Next »</a></li>
+    </ul>
+  </div>
+  <!-- End Pagination -->

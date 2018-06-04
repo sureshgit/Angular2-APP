@@ -1,0 +1,25 @@
+.business-card
+{
+height: 305.5px;
+border: 1px solid #eee;
+border-radius: 3px;
+/*margin-bottom: 10px;*/
+padding: 0px;
+margin-top: 5px;
+background-color: #h1h1h1;
+}
+
+
+.business-details-left
+{
+
+}
+
+.business-body{
+	height: 230px;	
+	max-height: 230px;
+}
+
+#content {
+    padding: 5px 30px;
+}

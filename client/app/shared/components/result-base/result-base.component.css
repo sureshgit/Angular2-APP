@@ -1,0 +1,16 @@
+.main-container {
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.breadcrump-main {
+	padding-top: 5px;
+	padding-bottom: 5px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    color: #666666;
+}
+
+.page-content{
+	padding: 0;
+}
